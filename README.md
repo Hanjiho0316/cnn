@@ -28,3 +28,6 @@ Requirements
 Python 3.x
 TensorFlow or PyTorch (depending on which framework you use)
 OpenCV (for image processing)
+
+in the folder the npy file is acting like dataset
+npy file is just array
