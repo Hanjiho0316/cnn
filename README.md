@@ -8,30 +8,17 @@ Installation
 Clone the repository:
 
 bash
-복사
-git clone https://github.com/YourUsername/eye-recognition-cnn.git
+git clone https://github.com/Hanjiho0316/cnn.git
 Navigate to the project directory:
 
-bash
-복사
-cd eye-recognition-cnn
-Install the required dependencies:
-
-bash
-복사
-pip install -r requirements.txt
-Usage
-Prepare your image dataset containing labeled eye regions.
 
 Train the CNN model using the following command:
 
 bash
-복사
 python train_model.py
 Once the model is trained, use the following command to test eye recognition on new images:
 
 bash
-복사
 python recognize_eyes.py --image <path_to_image>
 Features
 Eye Detection: Detects and locates eyes in images.
